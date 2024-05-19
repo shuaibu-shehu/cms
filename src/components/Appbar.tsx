@@ -46,7 +46,7 @@ export const Appbar = () => {
                 <MobileScreenSearch />
                 {/* resources for cohort 2 and DSA, courses id (3  and 7 respectively) */}
                 {(courseId === 3 || courseId === 7) && (
-                  <Button>
+                  <Button asChild>
                     <Link
                       className="text-white text-md text-bold"
                       target="_blank"
